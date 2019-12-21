@@ -8,8 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "android-dev": "adb reverse tcp:8081 tcp:8081 && react-native run-android"
-  },
+   },
   "dependencies": {
     "firebase": "^7.6.1",
     "react": "16.9.0",

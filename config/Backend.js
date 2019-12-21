@@ -8,10 +8,10 @@ class Backend {
      if(!firebase.apps.length)
         {
             firebase.initializeApp({
-                apiKey: "AIzaSyB9dkenIo0vUVAOjpIcYOKG9xFutglW_PE",
-                authDomain: "chatapp-6b1cf.firebaseapp.com",
-                databaseURL: "https://chatapp-6b1cf.firebaseio.com",
-                storageBucket: "chatapp-6b1cf.appspot.com",
+                apiKey: "api-key",
+                authDomain: "auth-domain",
+                databaseURL: "database-url",
+                storageBucket: "storage-bucket",
             });
         }
     firebase.auth().onAuthStateChanged((user) => {
